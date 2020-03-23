@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/busemail"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPersonName"
+            android:hint="email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/orgname"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name of Organization"
+            android:textColor="#000000"/>
+
+
+
+        <EditText
+            android:id="@+id/ownername"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Owner name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/busmob"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="mobile no"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:textColor="#000000"/>
+
+
+
+        <EditText
+            android:id="@+id/buspass"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:hint="password"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/buscpass"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="650dp"
+            android:hint="confirm password"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/busregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="700dp"
+            />
+        <Button
+            android:id="@+id/buslog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back to login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="750dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="291dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

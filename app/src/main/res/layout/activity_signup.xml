@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00c6bc"/>
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editmob"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="mobile no"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="password"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editcpass"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:hint="confirm password"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        />
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back to login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business user?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="565dp"/>
+</RelativeLayout>

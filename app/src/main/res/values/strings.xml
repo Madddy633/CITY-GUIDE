@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+
+    <string-array name="TypeofOrganization">
+        <item>organization type</item>
+     <item>Restaurant</item>
+        <item>Theatre</item>
+        <item>Shopping Centre</item>
+        <item>Travel agency</item>
+        <item>Others</item>
+    </string-array>
+</resources>
